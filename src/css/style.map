@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass",
+		"../sass/_colors.sass",
+		"../sass/_interface.sass",
+		"../sass/blocks/_navbar.sass"
+	],
+	"sourcesContent": [
+		"@import '_colors.sass';\n@import '_interface.sass';\nИмпорт стилей шапки {}\n@import 'blocks/_navbar.sass';\n",
+		"",
+		".container {\n\t\twidth: 1170px;\n\t\tmargin: auto; }\n",
+		".navbar {\n\t&-block {\n\t\tdisplay: flex;\n\t\tjustify-content: space-between;\n\t\talign-items: center; } }\n\n"
+	],
+	"names": [],
+	"mappings": ";AEAA,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,IAAI;CAAG;;;ACDf,AAAD,aAAO,CAAC;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CAAG"
+}
